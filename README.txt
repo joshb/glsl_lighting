@@ -5,6 +5,8 @@ and compiles everything.
 
 just run:
 mkdir build; cd build; cmake ..; make; 
+then run the application from within the build folder:
+cd build; ./glsl_lighting
 
 Julian Straub
 http://www.jstraub.de/

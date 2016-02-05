@@ -1,3 +1,15 @@
+(February 2016)
+--------------------------------
+Added a CMakeLists.txt that automatically finds the necessary libraries
+and compiles everything.
+
+just run:
+mkdir build; cd build; cmake ..; make; 
+
+Julian Straub
+http://www.jstraub.de/
+
+
 glsl_lighting (December 30, 2010)
 ---------------------------------
 This is an OpenGL demo featuring simple per-pixel diffuse/specular

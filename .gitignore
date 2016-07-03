@@ -1,2 +1,7 @@
 *.o
 glsl_lighting
+*~
+build
+cmake_install*
+CMakeC*
+CMakeF*

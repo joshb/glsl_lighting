@@ -111,8 +111,8 @@ sceneInit(void)
 
 	/* create program object and attach shaders */
 	g_program = glCreateProgram();
-	shaderAttachFromFile(g_program, GL_VERTEX_SHADER, "data/shader.vp");
-	shaderAttachFromFile(g_program, GL_FRAGMENT_SHADER, "data/shader.fp");
+	shaderAttachFromFile(g_program, GL_VERTEX_SHADER, "../data/shader.vp");
+	shaderAttachFromFile(g_program, GL_FRAGMENT_SHADER, "../data/shader.fp");
 
 	/* link the program and make sure that there were no errors */
 	glLinkProgram(g_program);
